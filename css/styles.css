@@ -716,6 +716,7 @@ footer > div {
   align-items: flex-start;
   list-style: none;
   gap: 8px;
+  cursor: pointer;
 }
 .section-portfolio__buttons:hover,
 .section-portfolio__buttons:focus {
