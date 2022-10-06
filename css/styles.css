@@ -59,15 +59,9 @@ a:hover {
   display: flex;
   align-items: center;
   padding: 25px 15px;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  border-bottom: 1px solid #ececec;
 }
 .border-header {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
