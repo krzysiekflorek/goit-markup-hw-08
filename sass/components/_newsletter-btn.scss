@@ -1,0 +1,26 @@
+.newsletter__button-active {
+  font-family: "Roboto";
+  background-color: #2196f3;
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-style: none;
+  display: flex;
+  padding-left: 42px;
+  align-items: center;
+  text-align: center;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.newsletter__icon-send {
+  fill: #ffffff;
+  margin-left: 24px;
+}

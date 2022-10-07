@@ -1,0 +1,29 @@
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+.team ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  object-fit: contain;
+}
+.team figure {
+  background: #fff;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+}
+.team figcaption {
+  padding: 30px 32px;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

@@ -9,20 +9,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
       integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="css/styles.css" />
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
-    <title>WebStudio-Portfolio</title>
+      rel="stylesheet"
+    />
+    <title>WebStudio</title>
   </head>
   <body>
     <header class="border-header">
       <div class="container header">
         <a href="./index.html" class="logo"
-          ><span class="logo__blue-text">Web</span
+        ><span class="logo__blue-text">Web</span
           ><span class="logo__black-text">Studio</span>
         </a>
         <nav class="header-list">
@@ -39,23 +41,40 @@
           </li>
         </ul>
       </nav>
-      <ul class="contact">
-        <li>
-          <a class="contact__link-header"
-            href="mailto:info@devstudio.com">
-              <svg class="contact__link--header-icon contact__link--links contact__link--icon contact__link--icons">
-                <use href="images/icons.svg#icon-envelope" width="16" height="16"></use>
-              </svg>info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="contact__link-header" href="tel:+48111111111">
-            <svg class="contact__link--icons contact__link--icon contact__link--links">
-              <use href="images/icons.svg#icon-smartphone" width="16" height="16"></use>
-            </svg>+48 111 111 111</a>
+        <ul class="contact">
+          <li>
+            <a
+              class="contact__link-header"
+              href="mailto:info@devstudio.com"
+            >
+                <svg class="contact__link--header-icon contact__link--links contact__link--icon contact__link--icons">
+                  <use
+                    href="images/icons.svg#icon-envelope"
+                    width="16"
+                    height="16"
+                  ></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+          <li>
+            <a
+              class="contact__link-header"
+              href="tel:+48111111111"
+            >
+              <svg class="contact__link--icons contact__link--icon contact__link--links">
+                <use
+                  href="images/icons.svg#icon-smartphone"
+                  width="16"
+                  height="16"
+                ></use>
+              </svg>
+              +48 111 111 111</a
+            >
           </li>
         </ul>
       </div>
-    </header>
+      </header>
     <section class="section-portfolio">
       <div class="container">
         <ul class="section-portfolio__header-list section-portfolio__button-style">
@@ -343,7 +362,7 @@
       <div class="container">
         <div>
           <a class="footer-logo" href="index.html"
-            ><span class="footer__blue-text">Web</span>Studio</a
+            ><span class="text--blue">Web</span>Studio</a
           >
           <address class="footer__address">
             <span>m. Warszawa, Aleje Jerozolimskie 21</span>
@@ -355,10 +374,10 @@
             >
           </address>
         </div>
-        <div class="footer-flex">
-          <span>DOŁĄCZ DO NAS</span>
-          <ul class="footer__social-links">
-            <li>
+              <div class="footer-flex">
+                <h4 class="footer__title newsletter__description">DOŁĄCZ DO NAS</h4>
+                <ul class="footer__social-links">
+                  <li>
               <a href="" class="footer__social-icon">
                 <svg width="44px" height="44px">
                   <use

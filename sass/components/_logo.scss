@@ -1,0 +1,32 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.174;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo__blue-text {
+  color: #2196f3;
+}
+
+.logo__black-text {
+  color: #000000;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.193;
+  margin-bottom: 20px;
+  letter-spacing: 0.03em;
+}
+.footer-logo > span {
+  color: #2196f3;
+}

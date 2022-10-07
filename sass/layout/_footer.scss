@@ -1,0 +1,23 @@
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+footer > div {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 70px;
+}
+.footer-flex {
+  margin-top: 12px;
+}
+.footer-flex > span {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
