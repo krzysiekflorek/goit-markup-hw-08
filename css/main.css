@@ -989,7 +989,21 @@ footer > div {
   padding-left: 94px;
   margin: 0;
 }
+.section-portfolio__header-list {
+  color: #212121;
+  list-style: none;
+  text-decoration: none;
+}
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding-bottom: 94px;
+}
 .portfolio__elements {
   display: flex;
   flex-direction: row;
@@ -997,7 +1011,6 @@ footer > div {
   padding: 0;
   gap: 30px;
 }
-
 .portfolio__element {
   position: relative;
 }
@@ -1005,35 +1018,26 @@ footer > div {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
-
 .portfolio__header-list {
   list-style: none;
   text-decoration: none;
 }
-
-.section-portfolio__header-list {
-  color: #212121;
-  list-style: none;
-  text-decoration: none;
-}
-
-.portfolio__projects {
+.portfolio .portfolio__projects {
   padding: 0;
   margin: 0;
 }
-.portfolio__projects:hover, .portfolio__projects:focus {
+.portfolio .portfolio__projects:hover, .portfolio .portfolio__projects:focus {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__projects__projects-describe {
+.portfolio .portfolio__projects__projects-describe {
   border: #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-
 .portfolio__project-name {
   color: #212121;
   font-weight: 700;
@@ -1046,7 +1050,6 @@ footer > div {
   list-style: none;
   text-decoration: none;
 }
-
 .portfolio__project-text {
   color: #757575;
   font-size: 16px;
@@ -1056,7 +1059,6 @@ footer > div {
   list-style: none;
   text-decoration: none;
 }
-
 .portfolio__hidden-elements {
   display: flex;
   width: 100%;
@@ -1065,13 +1067,11 @@ footer > div {
   position: relative;
   overflow: hidden;
 }
-
 .portfolio__photo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .portfolio__hidden-background {
   position: absolute;
   background: rgba(33, 150, 243, 0.9);
@@ -1082,7 +1082,6 @@ footer > div {
   transform: translateY(300px);
   transition: transform 250ms linear;
 }
-
 .portfolio__hidden-text {
   justify-content: left;
   text-align: left;
@@ -1092,27 +1091,14 @@ footer > div {
   line-height: 1.56;
   color: #fff;
 }
-
 .portfolio__project-border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-
 .portfolio__description {
   padding: 20px 24px;
 }
-
 .portfolio__description > p {
   margin: 0;
-}
-
-.portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 30px;
-  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */
