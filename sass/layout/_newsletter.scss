@@ -1,17 +1,19 @@
 .newsletter {
   margin-left: 78px;
-}
-.newsletter__description {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  margin-bottom: 20px;
-}
-.newsletter__footer-list {
-  display: flex;
-  gap: 12px;
-  list-style: none;
-  text-decoration: none;
+
+  &__description {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+  }
+
+  &__footer-list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    text-decoration: none;
+  }
 }
