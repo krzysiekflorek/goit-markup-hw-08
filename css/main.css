@@ -758,7 +758,6 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-
 .lorem__heading {
   font-weight: 700;
   line-height: 1.143;
@@ -770,7 +769,6 @@ a:hover {
   font-size: 14px;
   line-height: 1.143;
 }
-
 .lorem__text {
   font-size: 14px;
   line-height: 1.72;
