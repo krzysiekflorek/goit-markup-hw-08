@@ -3,7 +3,7 @@
   font-style: normal;
 }
 
-.footer__address > span {
+& > span {
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -24,8 +24,8 @@
   text-decoration-line: underline;
   margin-bottom: 9px;
 
-  :hover,
-  :focus {
+  &:hover,
+  &:focus {
     color: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -40,23 +40,12 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  :hover,
-  :focus {
+  &:hover,
+  &:focus {
     color: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
-
-.footer__address > span {
-  display: block;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: #fff;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  margin-bottom: 9px;
 }
 
 .footer__text--blue:hover,
