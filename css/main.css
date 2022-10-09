@@ -53,6 +53,11 @@ a:hover {
 .text--black {
   color: #000000;
 }
+.text:hover, .text:focus {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .no-margin-bottom {
   margin-bottom: 0%;
@@ -380,13 +385,6 @@ a:hover {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
-}
-
-.text--blue:hover,
-.text--blue:hover:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__title {
