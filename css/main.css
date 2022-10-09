@@ -840,14 +840,12 @@ a:hover {
   padding-bottom: 94px;
   background: #f5f4fa;
 }
-
 .team ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   object-fit: contain;
 }
-
 .team figure {
   background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -855,11 +853,9 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-
 .team figcaption {
   padding: 30px 32px;
 }
-
 .team p {
   font-size: 16px;
   line-height: 1.19;
@@ -1030,6 +1026,13 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.portfolio__projects__projects-describe {
+  border: #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 
 .portfolio__project-name {
   color: #212121;
@@ -1088,14 +1091,6 @@ footer > div {
   font-size: 18px;
   line-height: 1.56;
   color: #fff;
-}
-
-.portfolio__projects-describe {
-  border: #eeeeee;
-  flex-basis: calc((100% - 60px) / 3);
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
 }
 
 .portfolio__project-border {
