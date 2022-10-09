@@ -798,19 +798,19 @@ a:hover {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.activityul {
+.activity ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 30px;
 }
-.activityli {
+.activity li {
   position: relative;
 }
-.activityimg {
+.activity img {
   display: block;
 }
-.activityp {
+.activity p {
   display: block;
   position: absolute;
   bottom: 0;
