@@ -798,23 +798,19 @@ a:hover {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.activity ul {
+.activityul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 30px;
 }
-
-.activity li {
+.activityli {
   position: relative;
 }
-
-.activity img {
+.activityimg {
   display: block;
 }
-
-.activity p {
+.activityp {
   display: block;
   position: absolute;
   bottom: 0;
@@ -830,15 +826,9 @@ a:hover {
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
-
 .activity__caption {
   position: relative;
 }
-
-.background-section {
-  background: #f5f4fa;
-}
-
 .activity__picture {
   display: block;
   font-size: 14px;
@@ -858,6 +848,10 @@ a:hover {
   left: 0;
   width: 370px;
   height: 70px;
+}
+
+.background-section {
+  background: #f5f4fa;
 }
 
 .team {
