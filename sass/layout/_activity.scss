@@ -9,6 +9,13 @@
     gap: 30px;
   }
 
+  @media screen and (max-width: 768px) {
+    & ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   & li {
     position: relative;
   }

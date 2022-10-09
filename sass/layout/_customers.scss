@@ -10,6 +10,24 @@
     list-style: none;
   }
 
+  @media screen and (max-width: 768px) {
+    & ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 30px;
+      column-gap: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    & ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 30px;
+      column-gap: 30px;
+    }
+  }
+
   & a {
     display: block;
     border: 1px solid #afb1b8;
@@ -27,6 +45,12 @@
 
   & li:not(:last-child) {
     margin-right: 30px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    & li:not(:last-child) {
+      margin-right: 0px;
+    }
   }
 
   &__icon {

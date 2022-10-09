@@ -7,13 +7,13 @@ body {
   padding: 0;
   width: 1600px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
-@media screen and (min-width: 330px) and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 480px;
   }
 
   body::-webkit-scrollbar {
@@ -21,10 +21,11 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   body {
     overflow-x: scroll;
     overflow-y: scroll;
+    width: 768px;
   }
 }
 

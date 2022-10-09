@@ -145,7 +145,7 @@
 .mobile-menu-contact-links .link {
   display: block;
   padding: 10px;
-  color: red;
+  color: #2196f3;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -155,13 +155,9 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
-
-  &:hover,
-  &:focus {
-    color: #2196f3;
-  }
 }
 
 .mobile-menu-socials-line {
   fill: #000;
+  color: #000;
 }

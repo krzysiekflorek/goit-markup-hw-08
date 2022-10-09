@@ -7,22 +7,23 @@ body {
   padding: 0;
   width: 1600px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
-@media screen and (min-width: 330px) and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 480px;
   }
   body::-webkit-scrollbar {
     display: none;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   body {
     overflow-x: scroll;
     overflow-y: scroll;
+    width: 768px;
   }
 }
 * {
@@ -75,6 +76,16 @@ a:hover {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+}
 .text--blue:hover,
 .text--blue:focus {
   color: #2196f3;
@@ -796,7 +807,7 @@ a:hover {
 .mobile-menu-contact-links .link {
   display: block;
   padding: 10px;
-  color: red;
+  color: #2196f3;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -807,12 +818,10 @@ a:hover {
   text-decoration: none;
   list-style: none;
 }
-.mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
-  color: #2196f3;
-}
 
 .mobile-menu-socials-line {
   fill: #000;
+  color: #000;
 }
 
 .navigation {
@@ -898,6 +907,19 @@ a:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .icons_box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .icons_box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
 .icon-box__vector {
   width: 270px;
   height: 120px;
@@ -946,6 +968,12 @@ a:hover {
   justify-content: space-between;
   list-style: none;
   gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .activity ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .activity li {
   position: relative;
@@ -1008,6 +1036,13 @@ a:hover {
   list-style: none;
   object-fit: contain;
 }
+@media screen and (max-width: 768px) {
+  .team ul {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .team figure {
   background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1037,6 +1072,22 @@ a:hover {
   align-items: center;
   list-style: none;
 }
+@media screen and (max-width: 768px) {
+  .customers ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .customers ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+}
 .customers a {
   display: block;
   border: 1px solid #afb1b8;
@@ -1051,6 +1102,11 @@ a:hover {
 }
 .customers li:not(:last-child) {
   margin-right: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .customers li:not(:last-child) {
+    margin-right: 0px;
+  }
 }
 .customers__icon {
   fill: #afb1b8;
