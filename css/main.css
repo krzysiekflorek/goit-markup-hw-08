@@ -318,7 +318,6 @@ a:hover {
   margin-top: 16px;
   grid-gap: 10px;
 }
-
 .team__social-links a {
   width: 44px;
   height: 44px;
@@ -337,20 +336,18 @@ a:hover {
   grid-gap: 10px;
   list-style: none;
 }
-
-.footer__social-links li {
+.footer__social-linksli {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1019607843);
 }
-.footer__social-links lili:hover, .footer__social-links lili:focus {
+.footer__social-linkslili:hover, .footer__social-linkslili:focus {
   background-color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer__social-links svg {
+.footer__social-linkssvg {
   fill: #fff;
 }
 
@@ -371,6 +368,9 @@ a:hover {
   background-color: #2196f3;
 }
 
+.footer-flex {
+  margin-top: 12px;
+}
 .footer-flex__social {
   display: block;
   font-weight: 700;
@@ -387,10 +387,6 @@ a:hover {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-flex {
-  margin-top: 12px;
 }
 
 .footer__title {
