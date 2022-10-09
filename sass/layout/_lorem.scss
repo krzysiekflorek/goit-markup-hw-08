@@ -7,20 +7,22 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-}
-.lorem__heading {
-  font-weight: 700;
-  line-height: 1.143;
-  margin: 0;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  color: #212121;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-}
-.lorem__text {
-  font-size: 14px;
-  line-height: 1.72;
-  margin: 0;
+
+  &__heading {
+    font-weight: 700;
+    line-height: 1.143;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.72;
+    margin: 0;
+  }
 }
