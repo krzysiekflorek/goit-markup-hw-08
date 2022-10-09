@@ -11,8 +11,8 @@
   border-radius: 50%;
   fill: #afb1b8;
 
-  &a:hover,
-  &a:focus {
+  &:hover,
+  &:focus {
     fill: #fff;
     background-color: #2196f3;
     transition-duration: 250ms;
