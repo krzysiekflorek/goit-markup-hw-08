@@ -292,7 +292,6 @@ a:hover {
   display: block;
   font-style: normal;
 }
-
 .footer__address > span {
   display: block;
   font-style: normal;
@@ -314,8 +313,7 @@ a:hover {
   text-decoration-line: underline;
   margin-bottom: 9px;
 }
-.footer__address-mail :hover,
-.footer__address-mail :focus {
+.footer__address-mail:hover, .footer__address-mail:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -329,27 +327,10 @@ a:hover {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer__address-tel :hover,
-.footer__address-tel :focus {
+.footer__address-tel:hover, .footer__address-tel:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__address {
-  display: block;
-  font-style: normal;
-}
-
-.footer__address > span {
-  display: block;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: #fff;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  margin-bottom: 9px;
 }
 
 .footer__text--blue:hover,
