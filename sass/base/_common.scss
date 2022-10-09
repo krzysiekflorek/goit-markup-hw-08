@@ -55,6 +55,12 @@ a:hover {
   &--black {
     color: #000000;
   }
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .no-margin-bottom {
@@ -64,11 +70,4 @@ a:hover {
 .header-list {
   list-style: none;
   text-decoration: none;
-}
-
-.text--blue:hover,
-.text--blue:hover:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
