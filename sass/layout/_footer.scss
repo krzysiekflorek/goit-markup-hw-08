@@ -2,12 +2,14 @@ footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  
+
   & > div {
-  display: flex;
-  justify-content: flex-start;
-  grid-gap: 70px;
+    display: flex;
+    justify-content: flex-start;
+    grid-gap: 70px;
+  }
 }
+
 .footer-flex {
   margin-top: 12px;
 
