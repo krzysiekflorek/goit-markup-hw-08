@@ -32,26 +32,7 @@
   &::after {
     content: "";
     position: absolute;
-    width: 53px;
-    border-bottom: #2196f3;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    height: 4px;
-    background-color: #2196f3;
-    margin-top: 45px;
-    display: block;
-  }
-}
-
-.navigation__current-link-portfolio {
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 58px;
+    width: 100%;
     border-bottom: #2196f3;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
