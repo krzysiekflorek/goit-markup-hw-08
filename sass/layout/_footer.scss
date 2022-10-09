@@ -2,8 +2,8 @@ footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-footer > div {
+  
+  & > div {
   display: flex;
   justify-content: flex-start;
   grid-gap: 70px;
