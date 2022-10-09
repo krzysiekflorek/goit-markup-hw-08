@@ -892,14 +892,12 @@ a:hover {
   padding-bottom: 94px;
   border-color: #757575;
 }
-
 .customers ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-
 .customers a {
   display: block;
   border: 1px solid #afb1b8;
@@ -912,11 +910,9 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .customers li:not(:last-child) {
   margin-right: 30px;
 }
-
 .customers__icon {
   fill: #afb1b8;
   border-color: #757575;
