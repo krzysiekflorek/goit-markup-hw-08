@@ -687,13 +687,11 @@ a:hover {
   margin-right: 8px;
   cursor: pointer;
 }
-
 .checkbox-hidden {
   -moz-appearance: none;
   -webkit-apperance: none;
   appearance: none;
 }
-
 .checkbox:checked {
   background-image: url(../images/checkbox.jpg);
   border: none;
