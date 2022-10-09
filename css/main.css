@@ -937,7 +937,6 @@ footer > div {
 .newsletter {
   margin-left: 78px;
 }
-
 .newsletter__description {
   color: #ffffff;
   font-weight: 700;
@@ -946,7 +945,6 @@ footer > div {
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
-
 .newsletter__footer-list {
   display: flex;
   gap: 12px;
