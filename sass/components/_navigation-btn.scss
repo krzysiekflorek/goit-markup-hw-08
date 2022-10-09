@@ -10,6 +10,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  @media (max-width: 767px) {
+    & {
+      display: none;
+    }
+  }
 }
 
 .navigation__current-button {
@@ -17,6 +23,12 @@
   text-decoration: none;
   list-style: none;
   color: #2196f3;
+
+  @media (max-width: 767px) {
+    & {
+      display: none;
+    }
+  }
 }
 
 .navigation__current-link {
@@ -35,5 +47,11 @@
     background-color: #2196f3;
     margin-top: 45px;
     display: block;
+  }
+
+  @media (max-width: 767px) {
+    & {
+      display: none;
+    }
   }
 }
