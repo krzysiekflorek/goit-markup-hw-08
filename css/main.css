@@ -957,6 +957,7 @@ a:hover {
 .lorem {
   display: flex;
   flex-direction: row;
+  flex-flow: column;
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
@@ -1142,6 +1143,7 @@ footer {
 footer > div {
   display: flex;
   justify-content: flex-start;
+  flex-flow: column;
   grid-gap: 70px;
 }
 
@@ -1185,6 +1187,7 @@ footer > div {
   gap: 12px;
   list-style: none;
   text-decoration: none;
+  flex-flow: column;
 }
 
 .section-portfolio__button-style {

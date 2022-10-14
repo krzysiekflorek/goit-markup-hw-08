@@ -12,9 +12,9 @@
 
   &__footer-list {
     display: flex;
-    flex-flow: column;
     gap: 12px;
     list-style: none;
     text-decoration: none;
+    flex-flow: column;
   }
 }
