@@ -1054,7 +1054,7 @@ a:hover {
 }
 .team ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
   object-fit: contain;
 }
