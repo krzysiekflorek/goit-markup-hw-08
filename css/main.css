@@ -959,6 +959,11 @@ a:hover {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .activity {
+    display: none;
+  }
+}
 .activity {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -968,12 +973,6 @@ a:hover {
   justify-content: space-between;
   list-style: none;
   gap: 30px;
-}
-@media screen and (max-width: 768px) {
-  .activity ul {
-    display: flex;
-    flex-direction: column;
-  }
 }
 .activity li {
   position: relative;
