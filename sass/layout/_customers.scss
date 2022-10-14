@@ -10,7 +10,7 @@
     list-style: none;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     & ul {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -19,7 +19,7 @@
     }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1199px) {
     & ul {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -47,7 +47,7 @@
     margin-right: 30px;
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1199px) {
     & li:not(:last-child) {
       margin-right: 0px;
     }

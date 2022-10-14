@@ -1,12 +1,12 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .activity {
     display: none;
   }
 }
 
 .activity {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   & ul {
     display: flex;
