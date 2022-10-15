@@ -31,15 +31,6 @@
     max-width: 480px;
     height: 400px;
     background-size: cover;
-    background-image: linear-gradient(
-        0deg,
-        rgba(47, 48, 58, 0.4) 0%,
-        rgba(47, 48, 58, 0.4) 100%
-      ),
-      url(".././images/background-image-mobile.jpg");
-  }
-
-  &__title {
     font-family: "Roboto";
     font-style: normal;
     color: #fff;
@@ -50,6 +41,12 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(47, 48, 58, 0.4) 0%,
+        rgba(47, 48, 58, 0.4) 100%
+      ),
+      url(".././images/background-image-mobile.jpg");
   }
 }
 
