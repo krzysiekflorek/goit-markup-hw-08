@@ -1122,8 +1122,8 @@ a:hover {
 }
 @media screen and (max-width: 1199px) {
   .customers ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-flow: column;
     row-gap: 30px;
     column-gap: 30px;
   }
