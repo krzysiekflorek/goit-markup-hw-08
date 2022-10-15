@@ -824,6 +824,10 @@ a:hover {
   color: #000;
 }
 
+.mobile-blue {
+  color: #2196f3;
+}
+
 .navigation {
   display: flex;
   flex-direction: row;
