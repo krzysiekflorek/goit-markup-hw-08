@@ -1,5 +1,5 @@
 .lorem {
-  flex-flow: column;
+  display: flex;
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
@@ -31,5 +31,6 @@
 @media screen and (max-width: 767px) {
   .lorem {
     max-width: 450;
+    flex-flow: column;
   }
 }
