@@ -19,7 +19,8 @@ footer {
 
   & > div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-flow: column;
     grid-gap: 70px;
   }
 }
