@@ -38,6 +38,19 @@
       ),
       url(".././images/background-image-mobile.jpg");
   }
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    color: #fff;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -56,5 +69,3 @@
       url(".././images/background-image-tablet.jpg");
   }
 }
-
-
