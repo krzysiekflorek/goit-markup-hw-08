@@ -795,6 +795,9 @@ a:hover {
 .mobile-menu-contact .link:hover, .mobile-menu-contact .link:focus {
   color: #2196f3;
 }
+.mobile-menu-contact .link.mobile-menu-blue {
+  color: #2196f3;
+}
 
 .mobile-menu-contact-links {
   position: absolute;
@@ -962,7 +965,6 @@ a:hover {
   padding: 0;
   list-style: none;
   text-decoration: none;
-  text-align: center;
 }
 .lorem__heading {
   font-weight: 700;
@@ -974,6 +976,7 @@ a:hover {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
+  text-align: center;
 }
 .lorem__text {
   font-size: 14px;
