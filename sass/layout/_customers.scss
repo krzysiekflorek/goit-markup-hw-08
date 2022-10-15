@@ -21,8 +21,8 @@
 
   @media screen and (max-width: 1199px) {
     & ul {
-      display: flex;
-      flex-flow: column;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       row-gap: 30px;
       column-gap: 30px;
     }
@@ -32,7 +32,10 @@
     display: block;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    padding: 17.71px 32px 14.25px;
+    padding-left: 15px;
+    padding-top: 32px;
+    padding-right: 15px;
+    padding-bottom: 32px;
 
     &:hover,
     &:focus {
