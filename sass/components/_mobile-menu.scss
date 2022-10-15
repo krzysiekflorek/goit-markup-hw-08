@@ -100,25 +100,6 @@
   }
 }
 
-.mobile-current .link {
-  display: block;
-  padding: 10px;
-  color: #212121;
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  list-style: none;
-
-  &:hover,
-  &:focus {
-    color: #2196f3;
-  }
-}
 .menu-toggle-container {
   position: absolute;
   right: 15px;
