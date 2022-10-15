@@ -812,6 +812,11 @@ a:hover {
   gap: 20px;
 }
 
+mobile-menu-socials-line {
+  fill: #2196f3;
+  color: #757575;
+}
+
 .mobile-menu-contact-links .link {
   display: block;
   padding: 0 10px;
@@ -827,12 +832,7 @@ a:hover {
   list-style: none;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
-
-.mobile-menu-socials-line {
-  fill: #2196f3;
-  color: #757575;
-}
-.mobile-menu-socials-line:hover, .mobile-menu-socials-line:focus {
+.mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
   color: #2196f3;
 }
 
