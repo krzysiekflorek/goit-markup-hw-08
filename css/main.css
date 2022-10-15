@@ -763,6 +763,9 @@ a:hover {
 .mobile-menu .link:hover, .mobile-menu .link:focus {
   color: #2196f3;
 }
+.mobile-menu .link.mobile-menu-blue {
+  color: #2196f3;
+}
 
 .menu-toggle-container {
   position: absolute;
@@ -822,10 +825,6 @@ a:hover {
 .mobile-menu-socials-line {
   fill: #000;
   color: #000;
-}
-
-.mobile-menu-blue {
-  color: #2196f3;
 }
 
 .navigation {

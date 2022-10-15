@@ -98,6 +98,10 @@
   &:focus {
     color: #2196f3;
   }
+
+  &.mobile-menu-blue {
+    color: #2196f3;
+  }
 }
 
 .menu-toggle-container {
@@ -160,8 +164,4 @@
 .mobile-menu-socials-line {
   fill: #000;
   color: #000;
-}
-
-.mobile-menu-blue {
-  color: #2196f3;
 }
