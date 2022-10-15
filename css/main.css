@@ -749,7 +749,7 @@ a:hover {
 .mobile-menu .link {
   display: block;
   padding: 10px;
-  color: #000;
+  color: #212121;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -780,13 +780,13 @@ a:hover {
 .mobile-menu-contact .link {
   display: block;
   padding: 10px;
-  color: #000;
+  color: #212121;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 34px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 47px;
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
