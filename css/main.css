@@ -763,7 +763,7 @@ a:hover {
 .mobile-menu .link:hover, .mobile-menu .link:focus {
   color: #2196f3;
 }
-.mobile-menu .link.__menu-blue {
+.mobile-menu .link.mobile-menu-blue {
   color: #2196f3;
 }
 
