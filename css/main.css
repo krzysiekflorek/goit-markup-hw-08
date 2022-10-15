@@ -832,6 +832,9 @@ a:hover {
   fill: #2196f3;
   color: #757575;
 }
+.mobile-menu-socials-line:hover, .mobile-menu-socials-line:focus {
+  color: #2196f3;
+}
 
 .navigation {
   display: flex;
