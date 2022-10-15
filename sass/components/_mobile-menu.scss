@@ -119,7 +119,7 @@
 .mobile-menu-contact .link {
   display: block;
   padding: 10px;
-  color: #212121;
+  color: #757575;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -137,6 +137,11 @@
 
   &.mobile-menu-blue {
     color: #2196f3;
+  }
+
+  &.mobile-menu-mail {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
 

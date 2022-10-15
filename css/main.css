@@ -781,13 +781,13 @@ a:hover {
 .mobile-menu-contact .link {
   display: block;
   padding: 10px;
-  color: #212121;
+  color: #757575;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 34px;
+  line-height: 40px;
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
@@ -797,6 +797,10 @@ a:hover {
 }
 .mobile-menu-contact .link.mobile-menu-blue {
   color: #2196f3;
+}
+.mobile-menu-contact .link.mobile-menu-mail {
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .mobile-menu-contact-links {
