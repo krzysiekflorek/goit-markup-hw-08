@@ -20,22 +20,23 @@
     max-height: 120px;
   }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .icons_box {
-    display: flex;
-    flex-direction: column;
-    width: 768px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .icons_box {
+      display: flex;
+      flex-direction: column;
+      width: 768px;
+    }
   }
-}
 
-.icon-box__vector {
-  width: 354px;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .icon-box__vector {
+    width: 354px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
