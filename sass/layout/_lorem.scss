@@ -1,3 +1,12 @@
+@media screen and (max-width: 767px) {
+  .lorem {
+    display: none;
+  }
+
+  &.lorem__text {
+    max-width: 450;
+  }
+
 .lorem {
   flex-flow: column;
   justify-content: space-between;
@@ -24,5 +33,6 @@
     font-size: 14px;
     line-height: 1.72;
     margin: 0;
+    width: 354px;
   }
 }
