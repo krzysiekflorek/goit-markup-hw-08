@@ -1,11 +1,12 @@
-/*footer {
+/* @media screen and (max-width: 767px) {
+  footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 
   & > div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-flow: column;
     grid-gap: 70px;
   }
