@@ -1190,8 +1190,8 @@ footer > div {
 }
 
 .newsletter {
-  margin-left: 667px;
-  margin-bottom: 94;
+  padding-left: 220px;
+  padding-top: 94;
 }
 .newsletter__description {
   color: #ffffff;
