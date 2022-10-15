@@ -1,4 +1,4 @@
-footer {
+/*footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -7,6 +7,18 @@ footer {
     display: flex;
     justify-content: flex-start;
     flex-flow: column;
+    grid-gap: 70px;
+  }
+}*/
+
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  & > div {
+    display: flex;
+    justify-content: flex-start;
     grid-gap: 70px;
   }
 }
