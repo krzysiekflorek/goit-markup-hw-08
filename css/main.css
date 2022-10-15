@@ -962,6 +962,7 @@ a:hover {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  text-align: center;
 }
 .lorem__heading {
   font-weight: 700;
