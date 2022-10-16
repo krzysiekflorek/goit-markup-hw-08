@@ -20,7 +20,26 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter__icon-send {
+.newsletter__button-active {
   fill: #ffffff;
   margin-left: 24px;
+}
+@media screen and (max-width: 767px) {
+  .newsletter__button-active {
+    justify-content: center;
+    width: 82px;
+    height: 30px;
+    text-align: center;
+    flex-flow: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__footer-list {
+    justify-content: center;
+    width: 82px;
+    height: 30px;
+    text-align: center;
+    flex-flow: column;
+  }
 }
