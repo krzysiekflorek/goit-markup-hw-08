@@ -1307,7 +1307,6 @@ footer > div {
     justify-content: center;
     text-align: center;
     flex-flow: column;
-    grid-gap: 70px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
