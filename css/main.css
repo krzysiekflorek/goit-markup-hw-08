@@ -977,7 +977,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icons_box {
     display: flex;
-    padding-top: 170px;
+    padding-top: 185px;
     gap: 30px;
     flex-flow: column;
     width: 345px;
@@ -1000,7 +1000,7 @@ a:hover {
   text-decoration: none;
   padding-bottom: 10px;
   padding-top: 30px;
-  margin-top: 30px;
+  margin-top: 45px;
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -1025,7 +1025,7 @@ a:hover {
   .lorem {
     flex-direction: column;
     gap: 30px;
-    padding-top: 30px;
+    padding-top: 45px;
     margin-top: 30px;
   }
 }
@@ -1039,7 +1039,7 @@ a:hover {
   .lorem__text {
     flex-direction: column;
     gap: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     padding-left: 5px;
     padding-left: 5px;
   }
@@ -1115,6 +1115,35 @@ a:hover {
   background: #f5f4fa;
 }
 
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+.team ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  object-fit: contain;
+}
+.team figure {
+  background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+}
+.team figure figcaption {
+  padding: 30px 32px;
+}
+.team figure p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 @media screen and (max-width: 767px) {
   .team ul {
     width: 480px;
@@ -1126,43 +1155,6 @@ a:hover {
     text-align: center;
   }
 }
-.team {
-  padding-top: 60px;
-  padding-bottom: 94px;
-  background: #f5f4fa;
-}
-.team ul {
-  display: flex;
-  width: 270px;
-  height: 428px;
-  left: 15px;
-  justify-content: center;
-  list-style: none;
-  object-fit: contain;
-}
-.team figure {
-  background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  display: flex;
-  width: 270px;
-  height: 260px;
-  left: 15px;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.team figcaption {
-  padding: 30px 32px;
-}
-.team p {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
 @media screen and (max-width: 767px) {
   .team ul {
     display: grid;
