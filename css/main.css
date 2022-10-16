@@ -1023,6 +1023,8 @@ a:hover {
     flex-direction: column;
     gap: 30px;
     width: 345px;
+    padding-top: 30px;
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 767px) {
