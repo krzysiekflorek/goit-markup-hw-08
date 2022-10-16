@@ -11,6 +11,8 @@
     font-weight: 700;
     line-height: 1.143;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
     padding-bottom: 10px;
     padding-top: 10px;
     color: #212121;
@@ -22,6 +24,8 @@
   &__text {
     font-size: 14px;
     line-height: 1.72;
+    list-style: none;
+    text-decoration: none;
     margin: 0;
   }
 }

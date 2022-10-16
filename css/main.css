@@ -945,6 +945,9 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   text-decoration: none;
 }
@@ -957,6 +960,7 @@ a:hover {
   margin-bottom: 30px;
   margin-top: 60px;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -988,6 +992,8 @@ a:hover {
   font-weight: 700;
   line-height: 1.143;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
   padding-bottom: 10px;
   padding-top: 10px;
   color: #212121;
@@ -998,6 +1004,8 @@ a:hover {
 .lorem__text {
   font-size: 14px;
   line-height: 1.72;
+  list-style: none;
+  text-decoration: none;
   margin: 0;
 }
 
