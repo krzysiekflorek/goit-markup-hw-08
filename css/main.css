@@ -404,6 +404,7 @@ a:hover {
     flex-flow: column;
     justify-content: center;
     text-align: center;
+    flex-flow: column;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -970,11 +971,11 @@ a:hover {
 
 .icon-box__vector {
   width: 270px;
-  height: 120px;
+  height: 60px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  margin-top: 180px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -983,7 +984,7 @@ a:hover {
 @media screen and (max-width: 767px) {
   .icon-box__vector {
     display: flex;
-    margin-top: 160px;
+    margin-top: 30px;
     flex-flow: column;
     width: 450px;
   }
@@ -991,7 +992,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icons_box {
     display: flex;
-    margin-top: 180px;
+    margin-top: 30px;
     gap: 30px;
     flex-flow: column;
     width: 345px;
@@ -1184,8 +1185,8 @@ a:hover {
   }
 }
 .customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-color: #757575;
 }
 .customers ul {
@@ -1198,29 +1199,19 @@ a:hover {
   display: block;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding-left: 15px;
-  padding-top: 32px;
-  padding-right: 15px;
-  padding-bottom: 32px;
+  padding: 17.71px 32px 14.25px;
 }
-.customers:hover, .customers:focus {
+.customers a:hover, .customers a:focus {
   border-color: #2196f3;
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers li:not(:last-child) {
-  margin-right: 30px;
-}
 .customers__icon {
   fill: #afb1b8;
   border-color: #757575;
 }
-@media screen and (max-width: 1199px) {
-  .customers li:not(:last-child) {
-    margin-right: 0px;
-  }
-}
+
 @media screen and (max-width: 767px) {
   .customers ul {
     display: grid;
@@ -1237,7 +1228,6 @@ a:hover {
     column-gap: 30px;
   }
 }
-
 footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -1309,6 +1299,22 @@ footer > div {
   flex-flow: column;
 }
 
+@media screen and (max-width: 480px) {
+  .newsletter__footer-list {
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    grid-gap: 70px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__footer-list {
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    grid-gap: 70px;
+  }
+}
 .section-portfolio__button-style {
   display: flex;
   gap: 8px;
