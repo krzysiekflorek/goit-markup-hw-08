@@ -29,8 +29,18 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lorem {
-    max-width: 450;
+  .icon-box__vector {
+    display: flex;
     flex-flow: column;
+    max-width: 450px;
+    max-height: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .icons_box {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
   }
 }
