@@ -832,6 +832,9 @@ a:hover {
   list-style: none;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
+.mobile-menu-contact-links .link li:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
 .mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
   color: #2196f3;
 }
@@ -951,15 +954,8 @@ a:hover {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .icons_box {
-    display: flex;
-    flex-direction: column;
-    width: 768px;
-  }
-}
 .icon-box__vector {
-  width: 450px;
+  width: 354px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -970,8 +966,23 @@ a:hover {
   align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .icon-box__vector {
+    display: none;
+    max-width: 450px;
+    max-height: 120px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .icons_box {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+  }
+}
 .lorem {
-  flex-flow: column;
+  display: flex;
+  width: 354px;
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
@@ -997,6 +1008,12 @@ a:hover {
   margin: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .lorem {
+    max-width: 450;
+    flex-flow: column;
+  }
+}
 @media screen and (max-width: 767px) {
   .activity {
     display: none;
@@ -1062,6 +1079,17 @@ a:hover {
   background: #f5f4fa;
 }
 
+@media screen and (max-width: 767px) {
+  .team ul {
+    width: 480px;
+    left: 0px;
+    background: #f5f4fa;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .team {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1069,26 +1097,24 @@ a:hover {
 }
 .team ul {
   display: flex;
+  width: 450px;
+  height: 622px;
+  left: 15px;
   justify-content: space-between;
   list-style: none;
   object-fit: contain;
-}
-@media screen and (max-width: 767px) {
-  .team ul {
-    width: 480px;
-    left: 0px;
-    background: #f5f4fa;
-    display: flex;
-    flex-direction: column;
-  }
 }
 .team figure {
   background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   display: flex;
+  width: 450px;
+  height: 622px;
+  left: 15px;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 .team figcaption {
   padding: 30px 32px;
@@ -1112,29 +1138,16 @@ a:hover {
   align-items: center;
   list-style: none;
 }
-@media screen and (max-width: 767px) {
-  .customers ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 30px;
-    column-gap: 30px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .customers ul {
-    display: flex;
-    flex-flow: column;
-    row-gap: 30px;
-    column-gap: 30px;
-  }
-}
 .customers a {
   display: block;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 17.71px 32px 14.25px;
+  padding-left: 15px;
+  padding-top: 32px;
+  padding-right: 15px;
+  padding-bottom: 32px;
 }
-.customers a:hover, .customers a:focus {
+.customers:hover, .customers:focus {
   border-color: #2196f3;
   cursor: pointer;
   transition-duration: 250ms;
@@ -1143,14 +1156,30 @@ a:hover {
 .customers li:not(:last-child) {
   margin-right: 30px;
 }
+.customers__icon {
+  fill: #afb1b8;
+  border-color: #757575;
+}
 @media screen and (max-width: 1199px) {
   .customers li:not(:last-child) {
     margin-right: 0px;
   }
 }
-.customers__icon {
-  fill: #afb1b8;
-  border-color: #757575;
+@media screen and (max-width: 767px) {
+  .customers ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .customers ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
 }
 
 footer {
@@ -1160,7 +1189,7 @@ footer {
 }
 footer > div {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: column;
   grid-gap: 70px;
 }
@@ -1190,8 +1219,7 @@ footer > div {
 }
 
 .newsletter {
-  padding-left: 220px;
-  padding-top: 94;
+  margin-left: 78px;
 }
 .newsletter__description {
   color: #ffffff;
@@ -1205,7 +1233,6 @@ footer > div {
   display: flex;
   gap: 12px;
   list-style: none;
-  text-decoration: none;
   flex-flow: column;
 }
 

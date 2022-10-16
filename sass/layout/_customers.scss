@@ -36,7 +36,7 @@
     fill: #afb1b8;
     border-color: #757575;
   }
-}
+
 
 @media screen and (max-width: 1199px) {
   & li:not(:last-child) {
@@ -60,4 +60,5 @@
     row-gap: 30px;
     column-gap: 30px;
   }
+}
 }
