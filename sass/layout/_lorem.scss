@@ -6,16 +6,23 @@
   list-style: none;
   text-decoration: none;
 
+  .lorem {
+    flex-flow: column;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
   &__heading {
     font-weight: 700;
     line-height: 1.143;
     margin: 0;
-    margin: 0px;
-    list-style: none;
-    text-decoration: none;
     padding-bottom: 10px;
-    padding-top: 30px;
-    margin-top: 45px;
+    padding-top: 10px;
     color: #212121;
     font-weight: 700;
     font-size: 14px;
@@ -25,9 +32,6 @@
   &__text {
     font-size: 14px;
     line-height: 1.72;
-    list-style: none;
-    padding-bottom: 60px;
-    text-decoration: none;
     margin: 0;
   }
 }
