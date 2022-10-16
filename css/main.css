@@ -1022,7 +1022,7 @@ a:hover {
   .lorem {
     flex-direction: column;
     gap: 30px;
-    width: 354px;
+    width: 345px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1035,7 +1035,7 @@ a:hover {
   .lorem__text {
     flex-direction: column;
     gap: 30px;
-    width: 340px;
+    width: 345px;
   }
 }
 @media screen and (max-width: 767px) {
