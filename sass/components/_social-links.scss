@@ -62,6 +62,24 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .footer__social-icon {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__social-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+  }
+}
+
 .footer__title {
   display: block;
   font-weight: 700;
