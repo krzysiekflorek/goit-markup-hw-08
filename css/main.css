@@ -982,7 +982,6 @@ a:hover {
 }
 .lorem {
   flex-flow: column;
-  justify-content: center;
   gap: 30px;
   margin: 0 auto;
   padding: 0;
@@ -1031,6 +1030,19 @@ a:hover {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .lorem {
+    flex-direction: column;
+    gap: 30px;
+    width: 354px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lorem__text {
+    flex-flow: column;
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .lorem__text {
     flex-direction: column;
     gap: 30px;
     width: 354px;
