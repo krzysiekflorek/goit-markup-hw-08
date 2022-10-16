@@ -1133,8 +1133,8 @@ a:hover {
   }
 }
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #f5f4fa;
 }
 .team ul {
@@ -1142,7 +1142,7 @@ a:hover {
   width: 270px;
   height: 428px;
   left: 15px;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   object-fit: contain;
 }
