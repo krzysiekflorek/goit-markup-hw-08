@@ -1185,8 +1185,8 @@ a:hover {
   }
 }
 .customers {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   border-color: #757575;
 }
 .customers ul {
@@ -1206,6 +1206,9 @@ a:hover {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers li:not(:last-child) {
+  margin-right: 30px;
 }
 .customers__icon {
   fill: #afb1b8;

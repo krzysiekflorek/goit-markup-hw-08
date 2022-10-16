@@ -1,6 +1,6 @@
 .customers {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   border-color: #757575;
 
   & ul {
@@ -23,6 +23,10 @@
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+  }
+
+  & li:not(:last-child) {
+    margin-right: 30px;
   }
 
   &__icon {
