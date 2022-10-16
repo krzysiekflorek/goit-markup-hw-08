@@ -957,16 +957,23 @@ a:hover {
   text-decoration: none;
 }
 
+.icons-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
 .icon-box__vector {
   width: 270px;
   height: 120px;
-  padding-top: 170px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 94px;
   display: flex;
-  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -982,7 +989,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icons_box {
     display: flex;
-    padding-top: 185px;
+    padding-top: px;
     gap: 30px;
     flex-flow: column;
     width: 345px;
