@@ -17,3 +17,20 @@
     flex-flow: column;
   }
 }
+@media screen and (max-width: 480px) {
+  .newsletter__footer-list {
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    grid-gap: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__footer-list {
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    grid-gap: 70px;
+  }
+}

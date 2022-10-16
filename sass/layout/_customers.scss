@@ -25,24 +25,14 @@
     }
   }
 
-  & li:not(:last-child) {
-    margin-right: 30px;
-  }
-
   &__icon {
     fill: #afb1b8;
     border-color: #757575;
   }
 }
 
-@media screen and (max-width: 1199px) {
-  & li:not(:last-child) {
-    margin-right: 0px;
-  }
-}
-
 @media screen and (max-width: 767px) {
-  & ul {
+  .customers ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
@@ -51,7 +41,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  & ul {
+  .customers ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 30px;
