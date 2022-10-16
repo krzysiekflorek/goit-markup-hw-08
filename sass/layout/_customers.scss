@@ -14,18 +14,15 @@
     display: block;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    padding-left: 15px;
-    padding-top: 32px;
-    padding-right: 15px;
-    padding-bottom: 32px;
-  }
+    padding: 17.71px 32px 14.25px;
 
-  &:hover,
-  &:focus {
-    border-color: #2196f3;
-    cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      border-color: #2196f3;
+      cursor: pointer;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   & li:not(:last-child) {
@@ -36,7 +33,7 @@
     fill: #afb1b8;
     border-color: #757575;
   }
-
+}
 
 @media screen and (max-width: 1199px) {
   & li:not(:last-child) {
@@ -60,5 +57,4 @@
     row-gap: 30px;
     column-gap: 30px;
   }
-}
 }
