@@ -6,12 +6,6 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
-  .icons_box {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .icon-box__vector {
   width: 354px;
   height: 120px;
@@ -26,7 +20,8 @@
 
 @media screen and (max-width: 767px) {
   .icon-box__vector {
-    display: none;
+    display: flex;
+    flex-flow: column;
     max-width: 450px;
     max-height: 120px;
   }
