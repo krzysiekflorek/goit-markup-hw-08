@@ -1013,7 +1013,7 @@ a:hover {
   .icons_box {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 354px;
   }
 }
 @media screen and (max-width: 767px) {
