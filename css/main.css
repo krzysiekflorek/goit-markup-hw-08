@@ -977,7 +977,7 @@ a:hover {
 }
 .lorem {
   display: flex;
-  width: 354px;
+  flex-direction: row;
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
@@ -995,7 +995,6 @@ a:hover {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
-  text-align: center;
 }
 .lorem__text {
   font-size: 14px;
