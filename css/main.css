@@ -1140,8 +1140,8 @@ a:hover {
 }
 .team ul {
   display: flex;
-  width: 450px;
-  height: 622px;
+  width: 270px;
+  height: 428px;
   left: 15px;
   justify-content: space-between;
   list-style: none;
@@ -1152,8 +1152,8 @@ a:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   display: flex;
-  width: 450px;
-  height: 622px;
+  width: 270px;
+  height: 260px;
   left: 15px;
   flex-direction: column;
   justify-content: center;
