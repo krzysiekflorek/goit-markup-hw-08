@@ -950,18 +950,6 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  text-decoration: none;
-}
-
-.icons-box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 30px;
   list-style: none;
   text-decoration: none;
 }
