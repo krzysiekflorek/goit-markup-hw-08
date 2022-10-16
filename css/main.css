@@ -976,7 +976,7 @@ a:hover {
   }
 }
 .lorem {
-  flex-direction: row;
+  flex-flow: column;
   justify-content: center;
   gap: 30px;
   margin: 0 auto;
