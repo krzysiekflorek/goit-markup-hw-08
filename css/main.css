@@ -1008,6 +1008,9 @@ a:hover {
   font-size: 14px;
   line-height: 1.72;
   list-style: none;
+  padding-bottom: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
   margin: 0;
 }
