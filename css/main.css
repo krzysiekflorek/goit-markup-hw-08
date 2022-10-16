@@ -950,7 +950,6 @@ a:hover {
 
 .icon-box__vector {
   width: 354px;
-  height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -964,8 +963,7 @@ a:hover {
   .icon-box__vector {
     display: flex;
     flex-flow: column;
-    max-width: 450px;
-    max-height: 120px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1007,8 +1005,7 @@ a:hover {
   .icon-box__vector {
     display: flex;
     flex-flow: column;
-    max-width: 450px;
-    max-height: 120px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
