@@ -975,6 +975,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icons_box {
     display: flex;
+    gap: 30px;
     flex-flow: column;
     width: 768px;
   }
@@ -1018,6 +1019,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icons_box {
     flex-direction: column;
+    gap: 30px;
     width: 354px;
   }
 }
@@ -1030,6 +1032,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .lorem {
     flex-direction: column;
+    gap: 30px;
     width: 354px;
   }
 }
