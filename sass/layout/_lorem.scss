@@ -1,21 +1,12 @@
 .lorem {
   flex-flow: column;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-decoration: none;
-
-  .lorem {
-    flex-flow: column;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-  }
 
   &__heading {
     font-weight: 700;
@@ -27,20 +18,24 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
+    list-style: none;
+    text-decoration: none;
   }
 
   &__text {
     font-size: 14px;
     line-height: 1.72;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
   }
-}
 
-@media screen and (max-width: 767px) {
-  .lorem {
-    flex-flow: column;
-    padding-top: 15;
-    width: 450px;
+  @media screen and (max-width: 767px) {
+    .lorem {
+      flex-flow: column;
+      padding-top: 15;
+      width: 450px;
+    }
   }
 }
 
