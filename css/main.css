@@ -943,13 +943,15 @@ a:hover {
 .icons-box {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 30px;
   list-style: none;
   text-decoration: none;
 }
 
 .icon-box__vector {
-  width: 354px;
+  width: 270px;
+  height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
