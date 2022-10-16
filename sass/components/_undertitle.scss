@@ -14,6 +14,29 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .section__title {
+    width: 117px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    flex-flow: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section__title {
+    width: 117px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    flex-flow: column;
+  }
+}
+
 .activity h2 {
   font-weight: 700;
   font-size: 36px;
