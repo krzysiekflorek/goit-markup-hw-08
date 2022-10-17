@@ -872,9 +872,6 @@ a:hover {
   list-style: none;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
-.mobile-menu-contact-links .link li:not(:last-child) {
-  border-right: none;
-}
 .mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
   color: #2196f3;
 }
@@ -1007,6 +1004,8 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
