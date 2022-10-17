@@ -5,20 +5,26 @@
   gap: 30px;
   list-style: none;
   text-decoration: none;
-}
 
-.icon-box__vector {
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center center;
-  background-repeat: no-repeat;
+  &__vector {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &__lorem {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
