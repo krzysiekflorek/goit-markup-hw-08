@@ -1268,7 +1268,7 @@ footer > div {
   justify-content: flex-start;
   grid-gap: 70px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   footer > div {
     display: flex;
     justify-content: center;
