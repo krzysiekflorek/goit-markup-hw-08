@@ -343,6 +343,25 @@ a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team__social-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  grid-gap: 10px;
+}
+.team__social-links a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.team__social-links a:hover, .team__social-links a:focus {
+  fill: #fff;
+  background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer__social-links {
   display: flex;
   grid-gap: 10px;
