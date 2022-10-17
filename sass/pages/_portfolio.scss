@@ -46,6 +46,10 @@
   }
 
   .portfolio__projects {
+    width: 370px;
+    background-color: #fff;
+    margin: 0;
+    transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
     padding: 0;
     margin: 0;
 

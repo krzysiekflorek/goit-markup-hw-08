@@ -40,12 +40,3 @@
 .portfolio__projects:hover .portfolio-label {
   transform: translateY(0);
 }
-
-.portfolio__projects {
-  padding: 0;
-  margin: 0;
-  width: 370px;
-  background-color: #fff;
-  margin: 0;
-  transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
-}
