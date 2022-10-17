@@ -2,16 +2,16 @@ footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
 
-  & > div {
-    display: flex;
-    justify-content: flex-start;
-    grid-gap: 70px;
-  }
+footer > div {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 70px;
 }
 
 @media screen and (max-width: 767px) {
-  & > div {
+  footer > div {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -21,7 +21,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  & > div {
+  footer > div {
     display: flex;
     justify-content: center;
     text-align: center;
