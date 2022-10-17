@@ -1,5 +1,5 @@
 .newsletter {
-  margin-left: 70px;
+  margin-left: 78px;
 
   &__description {
     color: #ffffff;
@@ -14,7 +14,7 @@
     display: flex;
     gap: 12px;
     list-style: none;
-    flex-flow: column;
+    text-decoration: none;
   }
 }
 

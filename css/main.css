@@ -1294,7 +1294,7 @@ footer > div {
 }
 
 .newsletter {
-  margin-left: 70px;
+  margin-left: 78px;
 }
 .newsletter__description {
   color: #ffffff;
@@ -1308,7 +1308,7 @@ footer > div {
   display: flex;
   gap: 12px;
   list-style: none;
-  flex-flow: column;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
