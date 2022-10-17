@@ -1344,6 +1344,20 @@ footer > div {
     flex-flow: column;
   }
 }
+@media screen and (max-width: 767px) {
+  .newsletter__description {
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__description {
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+  }
+}
 .section-portfolio__button-style {
   display: flex;
   gap: 8px;
