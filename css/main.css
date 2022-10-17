@@ -1041,6 +1041,7 @@ a:hover {
   margin: 0;
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 0px;
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -1051,6 +1052,7 @@ a:hover {
 .lorem__text {
   font-size: 14px;
   line-height: 1.72;
+  padding-left: 0px;
   margin: 0;
   list-style: none;
   text-decoration: none;
