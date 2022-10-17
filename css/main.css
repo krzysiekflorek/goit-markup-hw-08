@@ -357,6 +357,7 @@ a:hover {
   display: flex;
   grid-gap: 10px;
   list-style: none;
+  justify-content: center;
 }
 .footer__social-linksli {
   width: 44px;
