@@ -1240,6 +1240,7 @@ a:hover {
 .customers__icon {
   fill: #afb1b8;
   border-color: #757575;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
