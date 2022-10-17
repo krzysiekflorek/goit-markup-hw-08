@@ -996,7 +996,8 @@ a:hover {
 
 .icon-box__vector {
   width: 270px;
-  height: 120px;
+  height: 60px;
+  padding-top: 60px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -1004,12 +1005,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.eicon {
-  position: relative;
-  top: 60px;
-  left: 60px;
 }
 
 @media screen and (max-width: 767px) {
