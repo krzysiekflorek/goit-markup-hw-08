@@ -878,6 +878,9 @@ a:hover {
 .mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
   border-right: #2196f3;
 }
+.mobile-menu-contact-links .link li:not(:last-child) {
+  border-right: none;
+}
 
 .navigation {
   display: flex;
