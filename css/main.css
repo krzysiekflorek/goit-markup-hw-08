@@ -1006,11 +1006,6 @@ a:hover {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.icons-box__eicon {
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
 
 @media screen and (max-width: 767px) {
   .icon-box__vector {
