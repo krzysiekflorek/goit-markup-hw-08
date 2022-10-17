@@ -18,6 +18,12 @@
   align-items: center;
 }
 
+.eicon {
+  position: relative;
+  top: 60px;
+  left: 60px;
+}
+
 @media screen and (max-width: 767px) {
   .icon-box__vector {
     display: flex;
