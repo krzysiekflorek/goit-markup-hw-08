@@ -855,7 +855,6 @@ a:hover {
 
 .mobile-menu-socials-line {
   fill: #2196f3;
-  color: #757575;
 }
 
 .mobile-menu-contact-links .link {
@@ -874,10 +873,13 @@ a:hover {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 .mobile-menu-contact-links .link li:not(:last-child) {
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  border-right: none;
 }
 .mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
   color: #2196f3;
+}
+.mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
+  border-right: #2196f3;
 }
 
 .navigation {
