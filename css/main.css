@@ -1234,9 +1234,6 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers li:not(:last-child) {
-  margin-right: 30px;
-}
 .customers__icon {
   fill: #afb1b8;
   border-color: #757575;
