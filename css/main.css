@@ -371,6 +371,7 @@ a:hover {
 }
 .footer__social-linkssvg {
   fill: #fff;
+  justify-content: center;
 }
 
 .footer__social-icon {
