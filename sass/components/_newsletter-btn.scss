@@ -20,10 +20,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter__button-active {
+.newsletter__icon-send {
   fill: #ffffff;
   margin-left: 24px;
 }
+
 @media screen and (max-width: 767px) {
   .newsletter__button-active {
     flex-flow: column;
