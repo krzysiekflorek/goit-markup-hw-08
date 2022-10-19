@@ -1009,9 +1009,10 @@ a:hover {
 
 .icon-box__vector {
   width: 270px;
-  height: 120px;
+  height: 5px;
   background: #f5f4fa;
   border-radius: 4px;
+  padding-top: 30px;
   margin-bottom: 90px;
   margin-top: 60px;
   display: flex;
