@@ -534,14 +534,12 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .newsletter__button-active {
-    flex-flow: column;
+    margin-left: 22;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .newsletter__button-active {
-    display: block;
-    position: relative;
-    left: 60px;
+    margin-left: 220px;
   }
 }
 .newsletter__input {
