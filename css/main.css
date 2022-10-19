@@ -532,6 +532,18 @@ a:hover {
     justify-content: center;
   }
 }
+@media screen and (max-width: 767px) {
+  .newsletter__button-active {
+    flex-flow: column;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__button-active {
+    position: relative;
+    left: 100px;
+  }
+}
 .newsletter__input {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
