@@ -1009,7 +1009,7 @@ a:hover {
 
 .icon-box__vector {
   width: 270px;
-  height: 90px;
+  height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   padding-top: 30px;
@@ -1022,7 +1022,7 @@ a:hover {
 @media screen and (max-width: 767px) {
   .icon-box__vector {
     display: flex;
-    margin-top: 25px;
+    margin-top: 60px;
     flex-flow: column;
     width: 450px;
   }
@@ -1030,7 +1030,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon-box__vector {
     display: flex;
-    margin-top: 25px;
+    margin-top: 60px;
     gap: 30px;
     flex-flow: column;
     width: 345px;
