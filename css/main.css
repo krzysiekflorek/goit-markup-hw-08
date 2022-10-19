@@ -70,20 +70,43 @@ a:hover {
 }
 
 .container {
-  width: 1200px;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 480px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 768px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 .text--blue:hover,
@@ -1165,60 +1188,115 @@ a:hover {
 }
 
 .team {
-  margin-top: 60px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #f5f4fa;
-}
-.team ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  object-fit: contain;
-}
-.team figure {
-  background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  background-color: #f5f4fa;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
-.team figure figcaption {
-  padding: 30px 32px;
+.team__container {
+  min-width: 320px;
+  margin: auto;
 }
-.team figure p {
+.team__header {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.team__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0%;
+}
+.team__list-pocket {
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  margin: 0%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team__basis {
+  flex-basis: 100%;
+}
+.team__img-size {
+  width: 100%;
+  height: auto;
+}
+.team__name {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team__profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--lightgrey);
 }
 
-@media screen and (max-width: 767px) {
-  .team ul {
-    width: 480px;
-    left: 0px;
-    background: #f5f4fa;
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 36px;
+}
+.social-links__icon {
+  color: #afb1b8;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-links__icon:hover, .social-links__icon:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .team__container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .team__list {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .team__list-pocket {
+    margin: 0%;
+  }
+  .team__basis {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    background-color: #f5f4fa;
+  }
+  .team__container {
+    margin: auto;
+  }
+  .team__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
     text-align: center;
-  }
-}
-@media screen and (max-width: 767px) {
-  .team ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-    column-gap: 30px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .team ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 30px;
-    column-gap: 30px;
+    margin: 0px 0px 50px 0px;
   }
 }
 .customers {
