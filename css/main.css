@@ -1325,14 +1325,12 @@ footer > div {
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-  justify-content: center;
 }
 .newsletter__footer-list {
   display: flex;
   gap: 12px;
   list-style: none;
   text-decoration: none;
-  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
