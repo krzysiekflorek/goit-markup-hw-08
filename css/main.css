@@ -534,7 +534,7 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .newsletter__button-active {
-    margin-left: 22;
+    margin-left: 220px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
