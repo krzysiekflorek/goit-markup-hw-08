@@ -70,43 +70,20 @@ a:hover {
 }
 
 .container {
-  width: 480px;
+  width: 120px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 480px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-@media screen and (min-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    width: 768px;
   }
 }
 .text--blue:hover,
@@ -553,16 +530,6 @@ a:hover {
   .newsletter__footer-list {
     flex-flow: column;
     justify-content: center;
-  }
-}
-@media screen and (max-width: 767px) {
-  .newsletter__button-active {
-    flex-flow: column;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .newsletter__button-active {
-    flex-flow: column;
   }
 }
 .newsletter__input {
@@ -1217,9 +1184,27 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .portfolio {
+  .team ul {
+    display: 480px;
+    left: 0px;
+    background: #f5f4fa;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team ul {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     row-gap: 30px;
     column-gap: 30px;
   }
