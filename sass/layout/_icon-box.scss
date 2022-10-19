@@ -22,7 +22,6 @@
 @media screen and (max-width: 767px) {
   .icon-box__vector {
     display: flex;
-    margin-top: 60px;
     flex-flow: column;
     width: 450px;
   }
@@ -31,7 +30,6 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon-box__vector {
     display: flex;
-    margin-top: 60px;
     gap: 30px;
     flex-flow: column;
     width: 345px;
