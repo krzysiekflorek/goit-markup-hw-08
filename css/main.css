@@ -1040,7 +1040,7 @@ a:hover {
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
-  padding: 0;
+  padding-left: 0px;
   list-style: none;
   text-decoration: none;
 }
@@ -1057,6 +1057,7 @@ a:hover {
   line-height: 1.143;
   list-style: none;
   text-decoration: none;
+  padding-left: 0px;
 }
 .lorem__text {
   font-size: 14px;
@@ -1079,7 +1080,6 @@ a:hover {
     flex-direction: column;
     gap: 30px;
     padding-top: 10px;
-    margin-top: 45px;
   }
 }
 @media screen and (max-width: 767px) {
