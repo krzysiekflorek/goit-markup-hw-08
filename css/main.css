@@ -1087,7 +1087,7 @@ a:hover {
   .lorem__heading {
     flex-flow: column;
     width: 450px;
-    padding-left: 90px;
+    padding-left: 200px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
