@@ -543,7 +543,7 @@ a:hover {
     flex-flow: column;
     justify-content: center;
     position: relative;
-    left: 100px;
+    left: 200px;
   }
 }
 .newsletter__input {
