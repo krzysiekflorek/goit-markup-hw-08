@@ -1020,7 +1020,6 @@ a:hover {
 
 @media screen and (max-width: 767px) {
   .icon-box__vector {
-    display: flex;
     flex-flow: column;
     width: 450px;
   }
