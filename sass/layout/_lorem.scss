@@ -12,6 +12,7 @@
     font-weight: 700;
     line-height: 1.143;
     margin: 0;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
     color: #212121;
@@ -52,7 +53,7 @@
   .lorem__heading {
     flex-flow: column;
     width: 450px;
-    padding-left: 200px;
+    padding-left: 150px;
   }
 }
 
@@ -60,7 +61,7 @@
   .lorem__heading {
     flex-direction: column;
     gap: 30px;
-    padding-left: 110px;
+    padding-left: 90px;
   }
 }
 
