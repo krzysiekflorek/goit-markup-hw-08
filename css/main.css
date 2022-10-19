@@ -541,7 +541,6 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .newsletter__button-active {
     display: block;
-    justify-content: center;
     position: relative;
     left: 60px;
   }
