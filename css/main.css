@@ -1060,6 +1060,7 @@ a:hover {
   padding-left: 0px;
 }
 .lorem__text {
+  width: 270px;
   font-size: 14px;
   line-height: 1.72;
   padding-left: 0px;
