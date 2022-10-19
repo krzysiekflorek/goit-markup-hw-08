@@ -27,6 +27,10 @@ body {
     overflow-y: scroll;
     width: 768px;
   }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 * {
