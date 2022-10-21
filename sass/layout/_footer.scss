@@ -13,8 +13,8 @@ footer {
 @media screen and (max-width: 767px) {
   footer > div {
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
     flex-flow: column;
     grid-gap: 70px;
   }
@@ -23,8 +23,6 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   footer > div {
     display: flex;
-    justify-content: center;
-    text-align: center;
     flex-flow: column;
     grid-gap: 70px;
   }

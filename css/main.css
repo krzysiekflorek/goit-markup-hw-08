@@ -360,7 +360,6 @@ a:hover {
   display: flex;
   grid-gap: 10px;
   list-style: none;
-  justify-content: center;
 }
 .footer__social-linksli {
   width: 44px;
@@ -1309,8 +1308,8 @@ footer > div {
 @media screen and (max-width: 767px) {
   footer > div {
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
     flex-flow: column;
     grid-gap: 70px;
   }
@@ -1318,8 +1317,6 @@ footer > div {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   footer > div {
     display: flex;
-    justify-content: center;
-    text-align: center;
     flex-flow: column;
     grid-gap: 70px;
   }
@@ -1375,8 +1372,6 @@ footer > div {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .newsletter__footer-list {
-    justify-content: center;
-    text-align: center;
     flex-flow: column;
   }
 }
@@ -1389,8 +1384,6 @@ footer > div {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .newsletter__description {
-    justify-content: center;
-    text-align: center;
     flex-flow: column;
   }
 }
