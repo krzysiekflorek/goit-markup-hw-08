@@ -1097,6 +1097,7 @@ a:hover {
 @media screen and (max-width: 767px) {
   .lorem__text {
     flex-flow: column;
+    gap: 30px;
     width: 450px;
   }
 }
