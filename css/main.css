@@ -1027,6 +1027,7 @@ a:hover {
   .icon-box__vector {
     padding-left: 0px;
     padding-top: 15px;
+    margin-top: 30px;
     gap: 30px;
     flex-flow: column;
     width: 345px;
@@ -1091,7 +1092,6 @@ a:hover {
   .lorem__heading {
     flex-direction: column;
     gap: 30px;
-    padding-left: 90px;
     width: 345px;
   }
 }
