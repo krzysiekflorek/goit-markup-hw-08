@@ -1237,6 +1237,22 @@ a:hover {
     column-gap: 30px;
   }
 }
+@media screen and (max-width: 479px) {
+  .section__background-image {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    url: "./images/image1_1-mobile@2x.jpg";
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .section__background-image {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    url: "./images/image1_1-tablet.jpg";
+  }
+}
 .customers {
   padding-top: 94px;
   padding-bottom: 94px;
