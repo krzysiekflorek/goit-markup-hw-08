@@ -880,7 +880,7 @@ a:hover {
   text-decoration: none;
   list-style: none;
 }
-.mobile-menu-contact-links .link.mobile-menu-contact-line .link {
+.mobile-menu-contact-links .link__line {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 .mobile-menu-contact-links .link:hover, .mobile-menu-contact-links .link:focus {
