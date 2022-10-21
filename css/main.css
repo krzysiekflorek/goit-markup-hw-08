@@ -1010,7 +1010,7 @@ a:hover {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding-left: 80px;
+  padding-left: 90px;
   margin-top: 60px;
   display: flex;
   align-items: center;
@@ -1046,7 +1046,7 @@ a:hover {
   font-weight: 700;
   line-height: 1.143;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 0px;
   color: #212121;
