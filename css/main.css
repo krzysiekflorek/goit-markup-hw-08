@@ -903,11 +903,6 @@ a:hover {
   border-bottom: 1px solid #ececec;
 }
 
-@media screen and (max-width: 767px) {
-  .contact {
-    display: none;
-  }
-}
 .contact {
   display: flex;
   gap: 50px;
