@@ -1025,8 +1025,9 @@ a:hover {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon-box__vector {
-    padding-top: 15px;
-    margin-top: 45px;
+    padding-top: 20px;
+    padding-left: 60px;
+    margin-top: 30px;
     flex-flow: column;
     width: 345px;
     height: 120px;
