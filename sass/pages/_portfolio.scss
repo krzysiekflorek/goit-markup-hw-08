@@ -144,7 +144,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .portfolio {
+  .portfolio ul {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 30px;
@@ -153,7 +153,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .portfolio {
+  .portfolio ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
