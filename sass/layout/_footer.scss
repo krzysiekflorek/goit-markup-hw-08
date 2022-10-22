@@ -22,7 +22,6 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   footer > div {
-    display: flex;
     flex-flow: column;
     grid-gap: 70px;
   }
@@ -51,5 +50,11 @@ footer {
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-flex {
+    display: block;
   }
 }
