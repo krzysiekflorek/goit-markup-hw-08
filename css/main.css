@@ -419,6 +419,16 @@ a:hover {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__title {
+    margin-left: 503px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__social-links {
+    margin-left: 473px;
+  }
+}
 .header {
   flex-direction: row;
   display: flex;
