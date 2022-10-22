@@ -233,6 +233,13 @@ a:hover {
   color: #2196f3;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-flex {
+    display: block;
+    width: 400px;
+    padding-left: 15px;
+  }
+}
 .navigation__button {
   display: flex;
   text-decoration: none;
@@ -337,6 +344,20 @@ a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__address {
+    display: block;
+    width: 400px;
+    padding-left: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__address-mail {
+    display: block;
+    width: 400px;
+    padding-left: 15px;
+  }
+}
 .team__social-links {
   display: flex;
   justify-content: center;
@@ -1359,6 +1380,8 @@ footer > div {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-flex {
     display: block;
+    width: 400px;
+    padding-left: 15px;
   }
 }
 .newsletter {
