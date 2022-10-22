@@ -1,46 +1,18 @@
 .newsletter {
-  margin-left: 78px;
-
-  &__description {
-    color: #ffffff;
+  &__header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    color: #ffffff;
     margin-bottom: 20px;
   }
 
-  &__footer-list {
+  &__list {
+    padding-bottom: 60px;
     display: flex;
     gap: 12px;
-    list-style: none;
-    text-decoration: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .newsletter__footer-list {
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    flex-flow: column;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .newsletter__footer-list {
-    flex-flow: column;
-  }
-}
-@media screen and (max-width: 767px) {
-  .newsletter__description {
-    justify-content: center;
-    text-align: center;
-    flex-flow: column;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .newsletter__description {
-    flex-flow: column;
   }
 }
