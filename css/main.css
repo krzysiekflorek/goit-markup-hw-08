@@ -1380,7 +1380,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.description-button {
+.newsletter-button {
   font-family: "Roboto";
   background-color: #2196f3;
   color: #ffffff;
@@ -1433,7 +1433,7 @@ a:hover {
   width: 246px;
 }
 
-.descrition-button {
+.newsletter-button {
   display: flex;
 }
 
