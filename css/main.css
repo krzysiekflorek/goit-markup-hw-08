@@ -224,28 +224,6 @@ a:hover {
   color: #000000;
 }
 
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.193;
-  margin-bottom: 20px;
-  letter-spacing: 0.03em;
-}
-.footer-logo > span {
-  color: #2196f3;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-flex {
-    display: block;
-    width: 400px;
-    padding-left: 15px;
-  }
-}
 .navigation__button {
   display: flex;
   text-decoration: none;
