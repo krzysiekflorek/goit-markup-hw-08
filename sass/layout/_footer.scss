@@ -19,61 +19,59 @@
     list-style: none;
     margin-bottom: 60px;
   }
-    
 
-    &-contact {
-      color: rgba(255, 255, 255, 0.6);
-      text-decoration: none;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
-      margin: 8px 0px 8px 0px;
-      transition-property: color;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &-contact {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 8px 0px 8px 0px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-      &:hover,
-      &:focus {
-        color: #2196f3;
-      }
+    &:hover,
+    &:focus {
+      color: #2196f3;
     }
   }
 
-  &__socials {
-    &-header {
-      justify-content: center;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.03em;
-      color: #ffffff;
-      margin-bottom: 20px;
-    }
+&__socials {
+  &-header {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
 
-    &-links {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      margin-bottom: 60px;
-    }
+  &-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
 
-    &-icon {
-      color: #ffffff;
-      border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.1);
-      width: 44px;
-      height: 44px;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      transition-property: fill, background-color;
-      display: flex;
+  &-icon {
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill, background-color;
+    display: flex;
 
-      &:hover,
-      &:focus {
-        background-color: #2196f3;
-      }
+    &:hover,
+    &:focus {
+      background-color: #2196f3;
     }
   }
+}
 }
 
 .logo-footer {

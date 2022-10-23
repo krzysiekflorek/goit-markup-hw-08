@@ -1348,7 +1348,7 @@ a:hover {
   list-style: none;
   margin-bottom: 60px;
 }
-.footer__link-contact {
+.footer-contact {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 400;
@@ -1359,7 +1359,7 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__link-contact:hover, .footer__link-contact:focus {
+.footer-contact:hover, .footer-contact:focus {
   color: #2196f3;
 }
 .footer__socials-header {
@@ -1493,6 +1493,7 @@ a:hover {
   gap: 12px;
   flex-direction: column;
   justify-content: center;
+  list-style: none;
 }
 
 .section-portfolio__button-style {
