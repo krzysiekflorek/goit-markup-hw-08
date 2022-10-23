@@ -1221,6 +1221,7 @@ a:hover {
 .footer__link-contact:hover, .footer__link-contact:focus {
   color: #2196f3;
 }
+
 .footer__socials-header {
   justify-content: center;
   font-weight: 700;
