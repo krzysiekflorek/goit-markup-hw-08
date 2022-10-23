@@ -1302,7 +1302,7 @@ a:hover {
   margin-bottom: 60px;
   list-style: none;
 }
-.footer__socials-icon {
+.footer__socials-eicon {
   color: #ffffff;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -1313,7 +1313,7 @@ a:hover {
   transition-property: fill, background-color;
   display: flex;
 }
-.footer__socials-icon:hover, .footer__socials-icon:focus {
+.footer__socials-eicon:hover, .footer__socials-eicon:focus {
   background-color: #2196f3;
 }
 
