@@ -833,6 +833,7 @@ a:hover {
 
 .mobile-menu-contact-links .link {
   display: block;
+  left: 15px;
   padding: 0 10px;
   color: #2196f3;
   text-decoration: none;
