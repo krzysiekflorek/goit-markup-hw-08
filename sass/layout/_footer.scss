@@ -18,60 +18,59 @@
   &__link {
     list-style: none;
     margin-bottom: 60px;
-  }
 
-  &-contact {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    margin: 8px 0px 8px 0px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-      color: #2196f3;
+    &-contact {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      margin: 8px 0px 8px 0px;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        color: #2196f3;
+      }
     }
   }
 
-&__socials {
-  &-header {
-    justify-content: center;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    margin-bottom: 20px;
-  }
+  &__socials {
+    &-header {
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
 
-  &-links {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 60px;
-  }
+    &-links {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
 
-  &-icon {
-    color: #ffffff;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 44px;
-    height: 44px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill, background-color;
-    display: flex;
+    &-icon {
+      color: #ffffff;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 44px;
+      height: 44px;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-property: fill, background-color;
+      display: flex;
 
-    &:hover,
-    &:focus {
-      background-color: #2196f3;
+      &:hover,
+      &:focus {
+        background-color: #2196f3;
+      }
     }
   }
-}
 }
 
 .logo-footer {
@@ -94,6 +93,82 @@
   line-height: 1.71;
   margin: 0% auto;
   margin-top: 20px;
+}
+
+.newsletter {
+  &__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    padding-bottom: 60px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+  }
+}
+
+.input-email {
+  color: #ffffff99;
+  background-color: #2f303a;
+  width: 100%;
+  max-width: 450px;
+  height: 50px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
+  margin-bottom: 20px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+}
+
+.newsletter-button {
+  font-family: "Roboto";
+  background-color: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-style: none;
+  padding-left: 42px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-send {
+  fill: #ffffff;
+  margin-left: 24px;
+  margin-top: 13px;
 }
 
 @media screen and (min-width: 768px) {
@@ -131,6 +206,7 @@
 .newsletter-button {
   display: flex;
 }
+
 .input-email {
   width: 100%;
   max-width: 450px;
@@ -147,6 +223,7 @@
       margin-right: 0px;
       padding-left: 0px;
     }
+
     &__box-address {
       text-align: left;
     }
