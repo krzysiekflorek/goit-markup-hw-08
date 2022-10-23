@@ -1221,7 +1221,6 @@ a:hover {
 .footer__link-contact:hover, .footer__link-contact:focus {
   color: #2196f3;
 }
-
 .footer__socials-header {
   justify-content: center;
   font-weight: 700;
@@ -1236,7 +1235,6 @@ a:hover {
   gap: 10px;
   justify-content: center;
   margin-bottom: 60px;
-  list-style: none;
 }
 .footer__socials-icon {
   color: #ffffff;
@@ -1334,6 +1332,7 @@ a:hover {
   padding-left: 42px;
   align-items: center;
   text-align: center;
+  margin: auto;
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
