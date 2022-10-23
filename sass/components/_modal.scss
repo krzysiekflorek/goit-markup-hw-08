@@ -76,18 +76,22 @@
     transition-property: fill;
     transform: translateY(50%);
     z-index: 2;
-
-    &:focus + .icon-modal,
-    &:hover + .icon-modal {
-      fill: #2196f3;
-    }
   }
+
   .modal-label:hover .modal-icon,
   .modal-label:focus .modal-icon {
     fill: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .modal-icon:hover .modal-label,
+  .modal-icon:focus .modal-label {
+    fill: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   &-textarea {
     width: 448px;
     height: 120px;
