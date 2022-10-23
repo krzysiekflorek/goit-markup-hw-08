@@ -83,3 +83,20 @@
     height: 374px;
   }
 }
+@media screen and (max-width: 479px) {
+  .team figure {
+    width: 450px;
+    height: 460px;
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .team figure {
+    width: 354px;
+    height: 374px;
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+}
