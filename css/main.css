@@ -458,13 +458,6 @@ a:hover {
     margin-bottom: 344px;
   }
 }
-.header {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  padding: 25px 15px;
-}
-
 .section__title {
   color: #fff;
   font-weight: 900;
@@ -852,17 +845,15 @@ a:hover {
   border-right: #2196f3;
 }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  list-style: none;
-  gap: 50px;
-  padding-left: 93px;
-}
-
-.border-header {
+.header {
   border-bottom: 1px solid #ececec;
+  display: flex;
+}
+.header__border {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 25px 15px;
 }
 
 .contact {
@@ -904,6 +895,15 @@ a:hover {
   fill: #757575;
   list-style: none;
   text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  gap: 50px;
+  padding-left: 93px;
 }
 
 @media screen and (max-width: 767px) {

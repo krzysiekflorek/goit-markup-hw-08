@@ -1,13 +1,13 @@
-.navigation {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  list-style: none;
-  gap: 50px;
-  padding-left: 93px;
-}
-.border-header {
+.header {
   border-bottom: 1px solid #ececec;
+  display: flex;
+
+  &__border {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+  }
 }
 
 .contact {
@@ -52,6 +52,15 @@
     list-style: none;
     text-decoration: none;
   }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  gap: 50px;
+  padding-left: 93px;
 }
 
 @media screen and (max-width: 767px) {
