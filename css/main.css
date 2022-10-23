@@ -544,7 +544,7 @@ a:hover {
   transform: translateY(50%);
   z-index: 2;
 }
-.modal-icon:hover, .modal-icon:focus {
+.modal-icon:focus + .icon-modal, .modal-icon:hover + .icon-modal {
   fill: #2196f3;
 }
 .modal-textarea {
