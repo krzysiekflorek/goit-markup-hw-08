@@ -1235,6 +1235,7 @@ a:hover {
   gap: 10px;
   justify-content: center;
   margin-bottom: 60px;
+  list-style: none;
 }
 .footer__socials-icon {
   color: #ffffff;
