@@ -989,7 +989,8 @@ a:hover {
 }
 
 .team {
-  padding-top: 94px;
+  margin-top: 30px;
+  padding-top: 64px;
   padding-bottom: 94px;
   background: #f5f4fa;
 }
