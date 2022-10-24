@@ -646,7 +646,7 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 34px;
-  line-height: 40px;
+  line-height: 1.176;
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
@@ -659,13 +659,13 @@ a:hover {
 }
 .mobile-menu-contact .link.mobile-menu-mail {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.166;
 }
 
 .mobile-menu-contact-links {
   position: absolute;
   bottom: 48px;
-  left: 15px;
+  left: 10px;
   list-style: none;
   display: flex;
   gap: 20px;
@@ -677,7 +677,7 @@ a:hover {
 
 .mobile-menu-contact-links .link {
   display: block;
-  left: 15px;
+  left: 10px;
   padding: 0 10px;
   color: #2196f3;
   text-decoration: none;
@@ -685,7 +685,7 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.222;
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
