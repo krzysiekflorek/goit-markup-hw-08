@@ -1412,7 +1412,7 @@ a:hover {
 .section-portfolio {
   padding-top: 94px;
   padding-right: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-left: 94px;
   margin: 0;
 }
@@ -1429,7 +1429,7 @@ a:hover {
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding-bottom: 94px;
+  padding-bottom: 60px;
 }
 .portfolio__elements {
   display: flex;
