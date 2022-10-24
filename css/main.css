@@ -761,6 +761,24 @@ a:hover {
     display: none;
   }
 }
+@media screen and (max-width: 767px) {
+  .header__border {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__border {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    margin: 0;
+  }
+}
 .section__flex {
   display: flex;
   flex-direction: column;
