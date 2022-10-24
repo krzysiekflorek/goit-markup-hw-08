@@ -1106,8 +1106,8 @@ a:hover {
   }
 }
 .customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-color: #757575;
 }
 .customers ul {
@@ -1121,6 +1121,7 @@ a:hover {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 17.71px 32px 14.25px;
+  text-align: center;
 }
 .customers a:hover, .customers a:focus {
   border-color: #2196f3;

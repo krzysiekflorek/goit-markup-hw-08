@@ -1,6 +1,6 @@
 .customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-color: #757575;
 
   & ul {
@@ -15,6 +15,7 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     padding: 17.71px 32px 14.25px;
+    text-align: center;
 
     &:hover,
     &:focus {
