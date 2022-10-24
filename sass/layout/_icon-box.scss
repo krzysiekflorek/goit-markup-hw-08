@@ -18,22 +18,26 @@
 }
 
 @media screen and (max-width: 767px) {
-  .icon-box__vector {
-    flex-flow: column;
-    padding-top: 20px;
-    padding-left: 0px;
-    width: 450px;
-    height: 120px;
+  .icon-box {
+    &__vector {
+      flex-flow: column;
+      padding-top: 20px;
+      padding-left: 0px;
+      width: 450px;
+      height: 120px;
+    }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .icon-box__vector {
-    padding-top: 20px;
-    padding-left: 10px;
-    margin-top: 60px;
-    flex-flow: column;
-    width: 345px;
-    height: 120px;
+  .icon-box {
+    &__vector {
+      padding-top: 20px;
+      padding-left: 10px;
+      margin-top: 60px;
+      flex-flow: column;
+      width: 345px;
+      height: 120px;
+    }
   }
 }
