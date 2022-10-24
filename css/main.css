@@ -703,8 +703,7 @@ a:hover {
   flex-direction: row;
   display: flex;
   align-items: center;
-  margin: 0px;
-  padding: 14px 15px;
+  padding: 25x 15px;
 }
 
 .contact {
@@ -764,7 +763,8 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .header__border {
-    margin-left: 0px;
+    margin: 0;
+    padding: 14px 15px;
   }
 }
 .section__flex {
