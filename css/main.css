@@ -698,12 +698,13 @@ a:hover {
 .header {
   border-bottom: 1px solid #ececec;
   display: flex;
+  height: 60px;
+  padding: 25x 15px;
 }
 .header__border {
   flex-direction: row;
   display: flex;
   align-items: center;
-  padding: 25x 15px;
 }
 
 .contact {

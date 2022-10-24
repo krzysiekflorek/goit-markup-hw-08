@@ -1,12 +1,13 @@
 .header {
   border-bottom: 1px solid #ececec;
   display: flex;
+  height: 60px;
+  padding: 25x 15px;
 
   &__border {
     flex-direction: row;
     display: flex;
     align-items: center;
-    padding: 25x 15px;
   }
 }
 
