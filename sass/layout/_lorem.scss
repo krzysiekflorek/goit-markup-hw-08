@@ -50,33 +50,41 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lorem__heading {
-    flex-flow: column;
-    width: 450px;
-    padding-left: 150px;
+  .lorem {
+    &__heading {
+      flex-flow: column;
+      width: 450px;
+      text-align: center;
+    }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .lorem__heading {
-    flex-direction: column;
-    gap: 30px;
-    width: 345px;
+  .lorem {
+    &__heading {
+      flex-direction: column;
+      gap: 30px;
+      width: 345px;
+    }
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lorem__text {
-    flex-flow: column;
-    gap: 30px;
-    width: 450px;
+  .lorem {
+    &__text {
+      flex-flow: column;
+      gap: 30px;
+      width: 450px;
+    }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .lorem__text {
-    flex-direction: column;
-    gap: 30px;
-    width: 345px;
+  .lorem {
+    &__text {
+      flex-direction: column;
+      gap: 30px;
+      width: 345px;
+    }
   }
 }
