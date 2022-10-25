@@ -311,19 +311,19 @@ img {
   }
 }
 
-.team__social-links {
+.social-links__icon {
   display: flex;
   justify-content: center;
   margin-top: 16px;
   grid-gap: 10px;
 }
-.team__social-links a {
+.social-links__icon a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: #afb1b8;
 }
-.team__social-links a:hover, .team__social-links a:focus {
+.social-links__icon a:hover, .social-links__icon a:focus {
   fill: #fff;
   background-color: #2196f3;
   transition-duration: 250ms;
