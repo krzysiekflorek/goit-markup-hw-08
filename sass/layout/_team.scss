@@ -1,108 +1,143 @@
 .team {
-  margin-top: 30px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  & ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    object-fit: contain;
+  &__container {
+    min-width: 320px;
+    margin: auto;
   }
 
-  & figure {
-    background: #fff;
-    box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
-      0px 2px 1px #00000033;
-    border-radius: 0px 0px 4px 4px;
+  &__header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+  }
+
+  &__list {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 0%;
   }
 
-  & figcaption {
-    padding: 30px 32px;
+  &__list-pocket {
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
   }
 
-  & p {
+  &__basis {
+    flex-basis: 100%;
+  }
+  &__img-size {
+    width: 100%;
+    height: auto;
+  }
+
+  &__name {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  &__profession {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
     color: #757575;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .team ul {
-    display: 480px;
-    left: 0px;
-    background: #f5f4fa;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
-}
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 36px;
 
-@media screen and (max-width: 767px) {
-  .team ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-    column-gap: 30px;
-  }
-}
+  &__icon {
+    color: #afb1b8;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .team ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 30px;
-    column-gap: 30px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .section {
-    &__team {
-      margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 15px;
-      justify-content: center;
-      width: 450px;
-      height: 460px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: #ffffff;
+      background-color: #2196f3;
     }
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .section {
-    &__team {
-      margin: 0 auto;
+@media screen and (min-width: 768px) {
+  .team {
+    &__container {
       padding-left: 15px;
       padding-right: 15px;
-      justify-content: center;
-      width: 354px;
-      height: 374px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__list-pocket {
+      margin: 0%;
+    }
+    &__basis {
+      flex-basis: calc((100% - 30px) / 2);
     }
   }
 }
 
-@media screen and (max-width: 479px) {
-  .team figure {
-    width: 450px;
-    height: 460px;
-    padding-left: 15px;
-    margin: 0 auto;
-  }
-}
+@media screen and (min-width: 1200px) {
+  .team {
+    background-color: #f5f4fa;
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .team figure {
-    width: 354px;
-    height: 374px;
-    padding-left: 15px;
-    margin: 0 auto;
+    &__container {
+      margin: auto;
+    }
+
+    &__header {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      color: #212121;
+      text-align: center;
+      margin: 0px 0px 50px 0px;
+    }
+
+    &__list-pocket {
+      left: 215px;
+      top: 1635px;
+    }
+
+    &__basis {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+  }
+
+  .social-links {
+    margin-bottom: 30px;
   }
 }

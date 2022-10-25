@@ -72,7 +72,24 @@ a:hover {
   margin-bottom: 0%;
 }
 
+.no-padding-bottom {
+  padding-bottom: 0px;
+}
 .header-list {
   list-style: none;
   text-decoration: none;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
 }
