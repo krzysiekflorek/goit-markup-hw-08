@@ -1,17 +1,3 @@
-@media screen and (min-width: 450px) {
-  .modal {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .modal {
-    width: 528px;
-    margin: auto;
-    padding-bottom: 40px;
-  }
-}
-
 .modal {
   position: relative;
   width: 528px;
@@ -159,4 +145,18 @@
 }
 .is-hidden .modal {
   transform: scale(0);
+}
+
+@media screen and (min-width: 450px) {
+  .modal {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
 }

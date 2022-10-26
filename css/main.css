@@ -425,18 +425,6 @@ img {
   transition: opacity 250ms linear, visibility 500ms linear;
 }
 
-@media screen and (min-width: 450px) {
-  .modal {
-    width: 450px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal {
-    width: 528px;
-    margin: auto;
-    padding-bottom: 40px;
-  }
-}
 .modal {
   position: relative;
   width: 528px;
@@ -574,6 +562,18 @@ img {
   transform: scale(0);
 }
 
+@media screen and (min-width: 450px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+}
 .menu {
   display: flex;
   padding: 0;
