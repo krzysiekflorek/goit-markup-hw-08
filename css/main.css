@@ -560,7 +560,7 @@ img {
   transform: scale(0);
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 450px) and (max-width: 1199px) {
   .modal {
     width: 450px;
     height: 609px;
