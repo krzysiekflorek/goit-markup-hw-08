@@ -151,6 +151,16 @@
   .modal {
     width: 450px;
     height: 609px;
+
+    &__input {
+      height: 40px;
+      width: 370px;
+    }
+
+    &__textarea {
+      width: 370px;
+      height: 120px;
+    }
   }
 }
 
@@ -161,16 +171,6 @@
     padding-bottom: 40px;
     &__form {
       line-height: 1.15;
-    }
-
-    &__input {
-      height: 40px;
-      width: 370px;
-    }
-
-    &__textarea {
-      width: 370px;
-      height: 120px;
     }
 
     &__input-icon {

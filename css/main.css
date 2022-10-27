@@ -567,6 +567,14 @@ img {
     width: 450px;
     height: 609px;
   }
+  .modal__input {
+    height: 40px;
+    width: 370px;
+  }
+  .modal__textarea {
+    width: 370px;
+    height: 120px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -576,14 +584,6 @@ img {
   }
   .modal__form {
     line-height: 1.15;
-  }
-  .modal__input {
-    height: 40px;
-    width: 370px;
-  }
-  .modal__textarea {
-    width: 370px;
-    height: 120px;
   }
   .modal__input-icon--position-1 {
     position: absolute;
