@@ -515,6 +515,20 @@ img {
   padding-left: 16px;
 }
 
+.modal .modal__label:hover .modal__input-icon,
+.modal .modal__label:focus .modal__input-icon {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal .modal__input-icon:hover .modal__label,
+.modal .modal__input-icon:focus .modal__label {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .label-terms {
   position: relative;
   font-weight: 400;
