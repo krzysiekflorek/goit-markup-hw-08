@@ -150,6 +150,7 @@
 @media screen and (min-width: 450px) {
   .modal {
     width: 450px;
+    height: 609px;
   }
 }
 
@@ -160,6 +161,9 @@
     padding-bottom: 40px;
     &__form {
       line-height: 1.15;
+    }
+
+    &__input {
     }
 
     &__input-icon {
