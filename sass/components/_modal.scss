@@ -76,20 +76,11 @@
     transition-property: fill;
     transform: translateY(50%);
     z-index: 2;
-  }
 
-  .modal__label:hover .modal__input-icon,
-  .modal__label:focus .modal__input-icon {
-    fill: #2196f3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .modal__input-icon:hover .modal__label,
-  .modal__input-icon:focus .modal__label {
-    fill: #2196f3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: #2196f3;
+    }
   }
 
   &__textarea {
@@ -167,8 +158,10 @@
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
+    height: 581px;
     margin: auto;
     padding-bottom: 40px;
+
     &__form {
       line-height: 1.15;
     }

@@ -504,17 +504,8 @@ img {
   transform: translateY(50%);
   z-index: 2;
 }
-.modal .modal__label:hover .modal__input-icon,
-.modal .modal__label:focus .modal__input-icon {
+.modal__input-icon:hover, .modal__input-icon:focus {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal .modal__input-icon:hover .modal__label,
-.modal .modal__input-icon:focus .modal__label {
-  fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__textarea {
   width: 448px;
@@ -586,6 +577,7 @@ img {
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
+    height: 581px;
     margin: auto;
     padding-bottom: 40px;
   }
