@@ -49,3 +49,11 @@
   height: 50px;
   margin-left: 164px;
 }
+
+@media screen and (min-width: 450px) {
+  .form-button {
+    width: 200px;
+    height: 50px;
+    margin-left: 144px;
+  }
+}
