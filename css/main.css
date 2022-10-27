@@ -581,6 +581,10 @@ img {
     height: 40px;
     width: 370px;
   }
+  .modal__textarea {
+    width: 370px;
+    height: 120px;
+  }
   .modal__input-icon--position-1 {
     position: absolute;
     top: 50%;
