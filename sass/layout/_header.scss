@@ -92,7 +92,10 @@
     display: block;
     gap: 50px;
     margin: 0 auto;
-    padding: 0 0 0 70px;
+    padding-top: 4px;
+    padding-left: 70px;
+    padding-bottom: 4px;
+    padding-right: 0px;
     list-style: none;
     text-decoration: none;
   }
