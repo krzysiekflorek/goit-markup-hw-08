@@ -853,11 +853,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .contact {
-    display: none;
-  }
-}
-@media screen and (max-width: 767px) {
   .header__border {
     flex-direction: row;
     display: flex;
@@ -873,6 +868,21 @@ img {
     align-items: center;
     padding: 8px 15px;
     margin: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contact {
+    display: block;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 0 0 0 70px;
+    list-style: none;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact {
+    display: none;
   }
 }
 .section__flex {
