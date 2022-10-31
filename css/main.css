@@ -318,6 +318,11 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .navigation__current-link::after {
+    margin-top: 35px;
+  }
+}
 .social-links {
   display: flex;
   justify-content: center;
