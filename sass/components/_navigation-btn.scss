@@ -45,7 +45,7 @@
     border-bottom-right-radius: 2px;
     height: 4px;
     background-color: #2196f3;
-    margin-top: 45px;
+    margin-top: 47px;
     display: block;
   }
 
@@ -57,7 +57,22 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .navigation__current-link::after {
-      margin-top: 35px;
+  .navigation__current-link {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      border-bottom: #2196f3;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      height: 4px;
+      background-color: #2196f3;
+      margin-top: 37px;
+      display: block;
     }
   }
+}
