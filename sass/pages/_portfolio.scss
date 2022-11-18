@@ -143,6 +143,17 @@
   }
 }
 
+.portfolio__element:hover .portfolio__hidden-background,
+.portfolio__element:focus .portfolio__hidden-background {
+  transform: translateY(0px);
+  transition-property: transform;
+  transition-duration: 250ms;
+}
+
+.portfolio__projects:hover .portfolio-label {
+  transform: translateY(0);
+}
+
 @media screen and (max-width: 767px) {
   .portfolio ul {
     display: grid;

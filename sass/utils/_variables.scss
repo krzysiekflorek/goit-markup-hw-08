@@ -1,42 +1,22 @@
-.text--blue:hover,
-.text--blue:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.contact__link-header:hover .contact__link--icons,
-.contact__link-header:focus .contact__link--icon {
-  fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.no-margin-bottom {
+  margin-bottom: 0%;
 }
 
-.contact__link--links {
-  text-decoration: none;
-  font-size: 14px;
+.no-padding-bottom {
+  padding-bottom: 0px;
 }
 
-.contact__link-active,
-.contact__links:hover,
-.contact__links:focus {
-  color: #2196f3;
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.customers a:hover .customers__icon,
-.customers a:focus .customers__icon {
-  fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio__element:hover .portfolio__hidden-background,
-.portfolio__element:focus .portfolio__hidden-background {
-  transform: translateY(0px);
-  transition-property: transform;
-  transition-duration: 250ms;
-}
-
-.portfolio__projects:hover .portfolio-label {
-  transform: translateY(0);
+img {
+  display: block;
 }

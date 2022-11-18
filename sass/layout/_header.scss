@@ -54,6 +54,24 @@
   }
 }
 
+.contact__link-header:hover .contact__link--icons,
+.contact__link-header:focus .contact__link--icon {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__link--links {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact__link-active,
+.contact__links:hover,
+.contact__links:focus {
+  color: #2196f3;
+}
+
 .navigation {
   display: flex;
   flex-direction: row;
@@ -61,6 +79,13 @@
   list-style: none;
   gap: 50px;
   padding-left: 93px;
+}
+
+.text--blue:hover,
+.text--blue:focus {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 767px) {

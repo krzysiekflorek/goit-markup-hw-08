@@ -33,6 +33,13 @@
   }
 }
 
+.customers a:hover .customers__icon,
+.customers a:focus .customers__icon {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @media screen and (max-width: 767px) {
   .customers ul {
     display: grid;

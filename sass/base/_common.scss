@@ -33,11 +33,6 @@ body {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 a:hover {
   color: #2196f3;
 }
@@ -68,13 +63,6 @@ a:hover {
   }
 }
 
-.no-margin-bottom {
-  margin-bottom: 0%;
-}
-
-.no-padding-bottom {
-  padding-bottom: 0px;
-}
 .header-list {
   list-style: none;
   text-decoration: none;
@@ -82,14 +70,4 @@ a:hover {
 
 .no-margin {
   margin: 0px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-img {
-  display: block;
 }
